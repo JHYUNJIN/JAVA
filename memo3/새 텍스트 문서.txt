@@ -1,0 +1,12 @@
+모듈은 패키지 관리 기능이 포함된 라이브러리이다
+
+
+라이브러리 --> 접근 제어 지시자 public로 선언
+		모든 라이브러리는 내부에 포함된 모든 패키지에 외부 접근이 가능
+
+module --> 일부 패키지를 은닉화하여 외부에서 접근할 수 없게 할 수 있다.
+
+
+myApplication2 --> my_module1 , my_module2
+my_module1 --> package1, package2..
+my_module2 --> package5, package6..
